@@ -1,6 +1,5 @@
 package dev.ia;
 
-
 import io.quarkiverse.langchain4j.RegisterAiService;
 
 // Esta anotação instrui o Quarkus a gerar uma implementação desta interface que se conecta ao LLM configurado.

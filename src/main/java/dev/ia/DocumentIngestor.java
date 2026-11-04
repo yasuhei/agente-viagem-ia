@@ -27,7 +27,7 @@ public class DocumentIngestor {
 
     public void onStart(@Observes StartupEvent event) {
         Document document = FileSystemDocumentLoader.loadDocument(
-                Paths.get("src/main/resources/rag/viagens.txt")
+                Paths.get("src/main/resources/rag/pacotes-viagem.md")
         );
 
         document.metadata().put("type", "packages");
